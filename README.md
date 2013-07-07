@@ -13,7 +13,8 @@ Rewrite the Python web framework Flask's demos with the peewee and mysql
   
 3.启动应用
   python flaskr.py 或者python minitwit.py
-  在浏览器上输入查看启动的应用:[http://127.0.0.1:5000]http://127.0.0.1:5000
+  在浏览器上输入查看启动的应用:http://127.0.0.1:5000
   
-4.大家可以查看我vps上的部署的应用minitwit：[http://twit.pytip.com]http://twit.pytip.com，欢迎访问我的个人博客[http://www.pytip.com]http://www.pytip.com
+4.大家可以查看我vps上的部署的应用minitwit：http://twit.pytip.com
+  欢迎访问我的个人博客:http://www.pytip.com
 
