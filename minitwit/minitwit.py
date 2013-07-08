@@ -72,7 +72,6 @@ def timeline():
         return redirect(url_for('public_timeline'))
     else:
         whomids = [follow.whom for follow in Follower.select().where(Follower.who == session['user_id'])]
-        print whomids
         if whomids :
             messages = Message.select().join(User).where(User.id == session['user_id'] | User.id << whomids ).limit(PER_PAGE) 
         else:
